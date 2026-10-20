@@ -1,0 +1,5 @@
+endpoint,method,payload,status_code,response_length,content_type,server
+/,GET,None,200,9984,text/html; charset=UTF-8,N/A
+/rest/products/search,GET,{'q': 'apple'},200,1617,application/json; charset=utf-8,N/A
+/rest/products/search,GET,{'q': 'banana'},200,504,application/json; charset=utf-8,N/A
+/rest/products/search,POST,{'q': 'apple'},500,2442,text/html; charset=utf-8,N/A
