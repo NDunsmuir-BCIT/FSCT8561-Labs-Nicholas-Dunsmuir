@@ -1,0 +1,7 @@
+{
+  "nicholas": {
+    "salt": "c5386a3fd683540f62dfd05631174207",
+    "password_hash": "cf58f0819e294e8b69f2e533d1e6f950d7a2085b5f3dd3be3e84d3a79a98dbee",
+    "totp_secret": "N7TPYA5J26L7X6Y7VKAFIBMV6WFDP3BO"
+  }
+}

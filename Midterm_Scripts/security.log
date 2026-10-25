@@ -1,0 +1,57 @@
+2026-10-23 14:06:53,701 INFO event=server_start host=127.0.0.1 port=8700
+2026-10-23 14:07:13,681 INFO event=connect client=127.0.0.1:60872
+2026-10-23 14:08:13,684 INFO event=idle_timeout client=127.0.0.1:60872
+2026-10-23 14:08:13,684 INFO event=closed client=127.0.0.1:60872
+2026-10-23 14:08:32,819 INFO event=connect client=127.0.0.1:58725
+2026-10-23 14:08:38,442 INFO event=password_ok client=127.0.0.1:58725 user=nicholas
+2026-10-23 14:08:56,661 INFO event=login_success client=127.0.0.1:58725 user=nicholas
+2026-10-23 14:09:34,968 INFO event=exit client=127.0.0.1:58725
+2026-10-23 14:09:34,968 INFO event=closed client=127.0.0.1:58725
+2026-10-23 14:09:39,772 INFO event=connect client=127.0.0.1:64328
+2026-10-23 14:09:46,593 WARNING event=auth_failed user=nicholas client=127.0.0.1:64328 failures=1
+2026-10-23 14:10:27,344 INFO event=client_disconnected client=127.0.0.1:64328
+2026-10-23 14:10:27,344 INFO event=closed client=127.0.0.1:64328
+2026-10-23 14:10:32,059 INFO event=connect client=127.0.0.1:61512
+2026-10-23 14:10:37,299 INFO event=password_ok client=127.0.0.1:61512 user=nicholas
+2026-10-23 14:10:39,672 WARNING event=otp_failed user=nicholas client=127.0.0.1:61512 failures=1
+2026-10-23 14:10:53,880 INFO event=client_disconnected client=127.0.0.1:61512
+2026-10-23 14:10:53,880 INFO event=closed client=127.0.0.1:61512
+2026-10-23 14:11:01,967 INFO event=connect client=127.0.0.1:61516
+2026-10-23 14:11:06,331 WARNING event=auth_failed user=nicholas client=127.0.0.1:61516 failures=1
+2026-10-23 14:11:13,854 WARNING event=auth_failed user=nicholas client=127.0.0.1:61516 failures=2
+2026-10-23 14:11:22,387 WARNING event=auth_failed user=nicholas client=127.0.0.1:61516 failures=3
+2026-10-23 14:11:22,387 WARNING event=lockout client=127.0.0.1:61516
+2026-10-23 14:11:22,388 INFO event=closed client=127.0.0.1:61516
+2026-10-23 14:14:46,464 INFO event=connect client=127.0.0.1:61867
+2026-10-23 14:14:46,464 WARNING event=rejected_pcap_in_connected client=127.0.0.1:61867 failures=1
+2026-10-23 14:14:46,465 INFO event=client_disconnected client=127.0.0.1:61867
+2026-10-23 14:14:46,465 INFO event=closed client=127.0.0.1:61867
+2026-10-23 14:15:50,112 INFO event=connect client=127.0.0.1:63446
+2026-10-23 14:15:56,652 INFO event=password_ok client=127.0.0.1:63446 user=nicholas
+2026-10-23 14:16:10,009 INFO event=login_success client=127.0.0.1:63446 user=nicholas
+2026-10-23 14:16:12,362 INFO event=pcap_ok client=127.0.0.1:63446 user=nicholas alerts=4
+2026-10-23 14:16:45,619 INFO event=exit client=127.0.0.1:63446
+2026-10-23 14:16:45,619 INFO event=closed client=127.0.0.1:63446
+2026-10-23 14:16:49,599 INFO event=connect client=127.0.0.1:57406
+2026-10-23 14:16:55,427 INFO event=password_ok client=127.0.0.1:57406 user=nicholas
+2026-10-23 14:17:06,231 WARNING event=otp_failed user=nicholas client=127.0.0.1:57406 failures=1
+2026-10-23 14:17:21,353 WARNING event=auth_failed user=699758 client=127.0.0.1:57406 failures=2
+2026-10-23 14:17:23,812 INFO event=client_disconnected client=127.0.0.1:57406
+2026-10-23 14:17:23,812 INFO event=closed client=127.0.0.1:57406
+2026-10-23 14:17:29,817 INFO event=connect client=127.0.0.1:57409
+2026-10-23 14:17:34,870 INFO event=password_ok client=127.0.0.1:57409 user=nicholas
+2026-10-23 14:17:43,820 INFO event=login_success client=127.0.0.1:57409 user=nicholas
+2026-10-23 14:18:43,833 INFO event=idle_timeout client=127.0.0.1:57409
+2026-10-23 14:18:43,833 INFO event=closed client=127.0.0.1:57409
+2026-10-23 14:18:43,834 INFO event=connect client=127.0.0.1:57411
+2026-10-23 14:18:43,834 INFO event=client_disconnected client=127.0.0.1:57411
+2026-10-23 14:18:43,834 INFO event=closed client=127.0.0.1:57411
+2026-10-23 14:24:06,699 INFO event=connect client=127.0.0.1:51659
+2026-10-23 14:24:11,352 INFO event=password_ok client=127.0.0.1:51659 user=nicholas
+2026-10-23 14:24:21,156 INFO event=login_success client=127.0.0.1:51659 user=nicholas
+2026-10-23 14:25:21,159 INFO event=idle_timeout client=127.0.0.1:51659
+2026-10-23 14:25:21,159 INFO event=closed client=127.0.0.1:51659
+2026-10-23 14:26:50,867 INFO event=connect client=127.0.0.1:50590
+2026-10-23 14:26:50,867 WARNING event=bad_request client=127.0.0.1:50590 failures=1
+2026-10-23 14:26:50,868 INFO event=client_disconnected client=127.0.0.1:50590
+2026-10-23 14:26:50,869 INFO event=closed client=127.0.0.1:50590

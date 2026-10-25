@@ -1,0 +1,5 @@
+endpoint,method,status_code,response_length,content_type,server
+/,GET,200,90,text/html; charset=utf-8,FSCT8561MidtermHTTP/1.0
+/health,GET,200,2,text/plain,FSCT8561MidtermHTTP/1.0
+/redirect,GET,302,0,N/A,FSCT8561MidtermHTTP/1.0
+/missing,GET,404,9,text/plain,FSCT8561MidtermHTTP/1.0

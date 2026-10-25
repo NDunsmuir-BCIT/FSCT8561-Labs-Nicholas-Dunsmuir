@@ -1,0 +1,8 @@
+category,endpoint,observation,review_status
+Transport,/,"Site is served over plain HTTP, so traffic is not encrypted.",Indicator only; manual review required (not proof of exploitability)
+Missing security header,/,Header 'Content-Security-Policy' is not present in the response.,Indicator only; manual review required (not proof of exploitability)
+Missing security header,/,Header 'X-Content-Type-Options' is not present in the response.,Indicator only; manual review required (not proof of exploitability)
+Missing security header,/,Header 'X-Frame-Options' is not present in the response.,Indicator only; manual review required (not proof of exploitability)
+Missing security header,/,Header 'Strict-Transport-Security' is not present in the response.,Indicator only; manual review required (not proof of exploitability)
+Cookie flags,/,"Cookie 'training_session' lacks: httponly, secure, samesite.",Indicator only; manual review required (not proof of exploitability)
+Information disclosure,/,Server header reveals: FSCT8561MidtermHTTP/1.0,Indicator only; manual review required (not proof of exploitability)

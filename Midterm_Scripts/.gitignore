@@ -1,0 +1,7 @@
+   users.json
+   users.json.tmp
+   security.log
+   http_scan_results.csv
+   http_findings.csv
+   __pycache__/
+   .venv/
