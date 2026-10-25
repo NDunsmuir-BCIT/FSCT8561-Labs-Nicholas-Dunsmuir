@@ -4,4 +4,4 @@
    http_scan_results.csv
    http_findings.csv
    __pycache__/
-   .venv/
+   .venv/users.json
