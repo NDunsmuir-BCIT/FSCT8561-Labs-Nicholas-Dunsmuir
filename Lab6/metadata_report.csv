@@ -1,0 +1,7 @@
+filename,format,metadata_fields,suspected_field,encoding,risk_score,reason
+Activation.png,PNG,"srgb, gamma, dpi, exif, Make, Model, Software, create-date",EXIF UserComment,plain text,15,+10 covert message in EXIF UserComment; +5 embedded GPS coordinates
+Brain-Channel.png,PNG,"srgb, gamma, dpi, exif",EXIF ImageDescription,plain text,10,+10 covert message in EXIF ImageDescription
+Brain.png,PNG,"srgb, gamma, dpi, Software",PNG text Software,plain text,10,+10 covert message in PNG text Software
+Chemicals.png,PNG,ImageDescription,PNG text ImageDescription,plain text,10,+10 covert message in PNG text ImageDescription
+Dopamine.png,PNG,"srgb, gamma, dpi, xmp, XML:com.adobe.xmp",XMP exif:MakerNote,plain text,10,+10 covert message in XMP exif:MakerNote
+Music.png,PNG,"srgb, gamma, dpi, Copyright, Make, Model, create-date, exif",EXIF Copyright; PNG text Copyright,Base64,20,"+10 covert message in EXIF Copyright, PNG text Copyright; +5 Base64-encoded value; +5 same value stored in multiple metadata types"
